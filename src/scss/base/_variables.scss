@@ -1,0 +1,51 @@
+/**
+  * Variables
+  * Contains re-usable variables like colors, sizes, breakpoints etc.
+  * Normally, you don't have to change anything in essentials.css and general.css
+  * because you'll define the basic-values here.
+  *
+  *
+  */
+// =============== RESPONSIVE ================
+
+//Screen sizes
+$onVeryLargeDesktop: 'min-width:1900px';
+$onLargeDesktop: 'min-width:1500px';
+$onDesktop: 'min-width:1270px';
+$onLargeTablet: 'min-width: 990px';
+$onTablet: 'min-width:750px';
+$onLargeMobile: 'min-width: 640px';
+$onMobile: 'min-width: 450px';
+
+$breakpoints: (
+	'phone': 450px,
+	'phone-land': 750px,
+	'tablet': 990px,
+	'desktop': 1270px,
+	'large-desktop': 1500px,
+	'wideScreen': 1750px,
+) !default;
+
+@import './../vendor/include-media';
+// EXAMPLE
+// @include media(">phone", "<=tablet") {
+//   width: 50%;
+//   }
+
+$maxWidth: 1800px;
+
+// USAGE
+// @media screen and ($onLargeMobile) {
+//   margin-bottom: 32px;
+// }
+
+//Colours
+$colourBlack: var(--primary-color);
+$colourWhite: var(--primary-contrast-color);
+$colorAccent: var(--secondary-color);
+$colorGrey: var(--tertiary-color);
+$colorSecondaryBlack: var(--secondary-contrast-color);
+
+//Custom Fonts
+$fontHeader: var(--font-heading-family);
+$fontBody: var(--font-body-family);

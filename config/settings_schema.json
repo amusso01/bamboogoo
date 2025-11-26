@@ -1,9 +1,9 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Dawn",
-    "theme_version": "15.4.0",
-    "theme_author": "Shopify",
+    "theme_name": "FDRY(15.4.0)",
+    "theme_version": "1.0.0",
+    "theme_author": "Andrea Musso",
     "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
     "theme_support_url": "https://support.shopify.com/"
   },
@@ -153,9 +153,9 @@
         "type": "range",
         "id": "page_width",
         "min": 1000,
-        "max": 1600,
-        "step": 100,
-        "default": 1200,
+        "max": 1800,
+        "step": 10,
+        "default": 1560,
         "unit": "px",
         "label": "t:settings_schema.layout.settings.page_width.label"
       },
