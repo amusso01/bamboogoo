@@ -27,4 +27,3 @@ README.md
 .prettierignore
 .parcelrc
 .babelrc
-/locales/*
